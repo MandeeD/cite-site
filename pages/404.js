@@ -13,7 +13,6 @@ export default function Custom404() {
           <h1 className="title">
             404 - Page Not Found
           </h1>
-
           <a href="/"><h2>Now go cite your sources!</h2></a>
         </main>
   
