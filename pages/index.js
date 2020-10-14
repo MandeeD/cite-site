@@ -8,19 +8,33 @@ export default function Home() {
         <title>Cite Your Sources, Please!</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="title" content="Cite Your Sources, Please!" key="title" />
-        <meta name="description" content="Sometimes we get a little too excited or concerned and share things before verifying legitimacy. Come check out if if you're too legit to quit." key="desc" />
+        <meta name="description" content="Sometimes we get a little too excited or concerned and share things before verifying legitimacy. Come check out if you're too legit to quit." key="desc" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://citeyoursourcesfor.me/" />
         <meta property="og:title" content="Cite Your Sources, Please!" />
-        <meta property="og:description" content="Sometimes we get a little too excited or concerned and share things before verifying legitimacy. Come check out if if you're too legit to quit." />
+        <meta property="og:description" content="Sometimes we get a little too excited or concerned and share things before verifying legitimacy. Come check out if you're too legit to quit." />
         <meta property="og:image" content="/meta_img.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://citeyoursourcesfor.me/" />
         <meta property="twitter:title" content="Cite Your Sources, Please!" />
-        <meta property="twitter:description" content="Sometimes we get a little too excited or concerned and share things before verifying legitimacy. Come check out if if you're too legit to quit." />
+        <meta property="twitter:description" content="Sometimes we get a little too excited or concerned and share things before verifying legitimacy. Come check out if you're too legit to quit." />
         <meta property="twitter:image" content="/meta_img.jpg" />
+
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110420554-2"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+    
+              gtag('config', 'UA-110420554-2');
+              `,
+          }}
+        />
       </Head>
 
       <main>
