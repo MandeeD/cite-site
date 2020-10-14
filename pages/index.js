@@ -9,6 +9,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="title" content="Cite Your Sources, Please!" key="title" />
         <meta name="description" content="Sometimes we get a little too excited or concerned and share things before verifying legitimacy. Come check out if you're too legit to quit." key="desc" />
+        <meta name="author" content="iNeedAdult" />
+        <link rel="canonical" href="https://citeyoursourcesfor.me/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://citeyoursourcesfor.me/" />
@@ -46,7 +48,7 @@ export default function Home() {
           Sometimes we get a little too excited or concerned and share things before verifying legitimacy.
         </p>
 
-        <h3>Check out these helpful resources to help stop the spread of false information:</h3>
+        <h2 className="subHed">Check out these helpful resources to help stop the spread of false information:</h2>
 
         <div className="grid">
           <a href="https://www.snopes.com/" className="card" target="_blank">
@@ -143,8 +145,13 @@ export default function Home() {
         }
 
         .title,
-        .description, h3 {
+        .description, .subHed {
           text-align: center;
+        }
+
+        .subHed {
+          font-size: 1.2rem;
+          line-height: 1.2;
         }
 
         .description {
