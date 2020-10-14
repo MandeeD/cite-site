@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="twitter:description" content="Sometimes we get a little too excited or concerned and share things before verifying legitimacy. Come check out if you're too legit to quit." />
         <meta property="twitter:image" content="/meta_img.jpg" />
 
-        
+        <script data-ad-client="ca-pub-5283749438202309" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110420554-2"></script>
         <script
           dangerouslySetInnerHTML={{
